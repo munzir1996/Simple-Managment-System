@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+   <children>
+      <TableView fx:id="Table1" prefHeight="225.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="ID1" prefWidth="150.0" text="ID" />
+          <TableColumn fx:id="Name1" minWidth="0.0" prefWidth="166.0" text="Name" />
+            <TableColumn fx:id="Salare1" prefWidth="150.0" text="Salare" />
+            <TableColumn fx:id="Address1" minWidth="0.0" prefWidth="133.0" text="Address" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="insertOne" buttonType="RAISED" layoutX="28.0" layoutY="318.0" onAction="#insert" prefHeight="49.0" prefWidth="118.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Insert" />
+      <JFXButton fx:id="deleteOne" buttonType="RAISED" layoutX="227.0" layoutY="318.0" onAction="#delete" prefHeight="49.0" prefWidth="118.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Delete" />
+      <JFXButton fx:id="updateOne" buttonType="RAISED" layoutX="398.0" layoutY="318.0" onAction="#update" prefHeight="49.0" prefWidth="118.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Update" />
+      <JFXTextField fx:id="idOne" labelFloat="true" layoutX="6.0" layoutY="245.0" promptText="ID" />
+      <JFXTextField fx:id="nameOne" labelFloat="true" layoutX="153.0" layoutY="245.0" promptText="Name" />
+      <JFXTextField fx:id="salareOne" labelFloat="true" layoutX="302.0" layoutY="245.0" promptText="Salare" />
+      <JFXTextField fx:id="addressOne" labelFloat="true" layoutX="451.0" layoutY="245.0" promptText="Address" />
+   </children>
+</AnchorPane>

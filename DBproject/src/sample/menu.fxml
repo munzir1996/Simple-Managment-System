@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="482.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllermenu">
+   <children>
+      <ImageView fx:id="menuIcon" fitHeight="122.0" fitWidth="133.0" layoutX="172.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@loginIcon1.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="securityButton" buttonType="RAISED" layoutX="58.0" layoutY="176.0" onAction="#oneClick" prefHeight="69.0" prefWidth="140.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Security" />
+      <JFXButton fx:id="hrButton" buttonType="RAISED" layoutX="58.0" layoutY="288.0" onAction="#threeClick" prefHeight="69.0" prefWidth="140.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Human Resources" />
+      <JFXButton fx:id="accountButton" buttonType="RAISED" layoutX="264.0" layoutY="176.0" onAction="#twoClick" prefHeight="69.0" prefWidth="140.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Accounters" />
+      <JFXButton fx:id="empButton" buttonType="RAISED" layoutX="264.0" layoutY="288.0" onAction="#fourClick" prefHeight="69.0" prefWidth="140.0" ripplerFill="#4059a9" style="-fx-background-color: white;" text="Employes" />
+   </children>
+</AnchorPane>

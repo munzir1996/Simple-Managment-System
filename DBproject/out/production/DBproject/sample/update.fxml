@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllerupdate">
+   <children>
+      <JFXTextField fx:id="ID" layoutX="75.0" layoutY="14.0" />
+      <Text layoutX="31.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <Text layoutX="27.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Text layoutX="27.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary" />
+      <Text layoutX="21.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <JFXTextField fx:id="Name" layoutX="89.0" layoutY="86.0" />
+      <JFXTextField fx:id="Address" layoutX="89.0" layoutY="177.0" />
+      <JFXTextField fx:id="Salary" layoutX="89.0" layoutY="128.0" />
+      <JFXButton fx:id="Update" buttonType="RAISED" layoutX="43.0" layoutY="237.0" onAction="#updateClick" prefHeight="42.0" prefWidth="88.0" style="-fx-background-color: white;" text="Update" />
+      <JFXButton fx:id="Delete" buttonType="RAISED" layoutX="150.0" layoutY="237.0" onAction="#deleteClick" prefHeight="42.0" prefWidth="88.0" style="-fx-background-color: white;" text="Delete" />
+   </children>
+</AnchorPane>
